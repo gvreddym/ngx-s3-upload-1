@@ -1,8 +1,6 @@
 export const s3Config = {
     buckets: {
-    'ap-south-1': 'uploads.ap-south-1.tensult.com',
-    'us-west-1': 'uploads.us-west-1.tensult.com'
+    'ap-northeast-1': 'pervacios3upload.com'
     },
-    defaultRegion: 'ap-south-1'
+    defaultRegion: 'ap-northeast-1'
   };
-  
