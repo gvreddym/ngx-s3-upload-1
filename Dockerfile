@@ -4,7 +4,13 @@ RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
 WORKDIR /home/node/app
 
-COPY *.json ./
+COPY package*.json ./
+
+COPY angular.json ./
+
+COPY tsconfig.json ./
+
+COPY tslint.json ./
 
 COPY src ./
 
