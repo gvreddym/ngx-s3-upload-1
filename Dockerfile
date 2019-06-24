@@ -22,4 +22,4 @@ COPY --chown=node:node . .
 
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD [ "npm", "start" ]
